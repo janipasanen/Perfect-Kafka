@@ -1,0 +1,5 @@
+module ckafka {
+    header "shim.h"
+    link "rdkafka"
+    export *
+}
